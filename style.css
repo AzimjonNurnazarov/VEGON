@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: font1;
+  src: url(./fonts/HanaleiFill-Regular.woff);
+}
+@font-face {
+  font-family: font2;
+  src: url(./fonts/playfairdisplay-variablefont_wght-webfont.woff);
+}
+@font-face {
+  font-family: font3;
+  src: url(./fonts/playfairdisplay-variablefont_wght-webfont.woff2);
+}
+.container {
+  width: 1440px;
+  height: 100%;
+  margin: auto;
+  background-color: aquamarine;
+}
+.container .header {
+  margin: auto;
+  width: 1200px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  background-color: #fff;
+}
+.container .header .logo {
+  flex-grow: 1;
+}
+.container .header .logo img {
+  width: 200px;
+}
+.container .header .ul {
+  flex-grow: 1;
+}
+.container .header .ul ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.container .header .ul ul li a {
+  text-decoration: none;
+  font-family: font2;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #7e7e7e;
+}
+.container .header .ul ul li a:hover {
+  color: #000;
+}
+.container .section1 {
+  margin-bottom: 60px;
+}
+.container .section1 h1 {
+  text-align: center;
+  font-size: 48px;
+  font-family: font2;
+  font-weight: 900;
+  margin-bottom: 60px;
+  letter-spacing: 2px;
+}
+.container .section1 p {
+  max-width: 900px;
+  height: 100%;
+  margin: auto;
+  font-family: font2;
+  line-height: 20px;
+  margin-bottom: 30px;
+  color: #7e7e7e;
+}
+.container .section1 h2 {
+  text-align: center;
+  font-family: font2;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.container .section1 .menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 1200px;
+  margin: auto;
+}
+.container .section1 .menu .menu_1 img {
+  width: 550px;
+  height: 550px;
+  cursor: pointer;
+}
+.container .section1 .menu .menu_2 img {
+  width: 550px;
+  height: 550px;
+}
+.container .section1 .menu .menu_3 img {
+  width: 550px;
+  height: 550px;
+}
+.container .section1 .menu .menu_4 img {
+  width: 550px;
+  height: 550px;
+}
+.container .footer {
+  width: 1200px;
+  height: 60px;
+  margin: auto;
+}
+.container .footer ul {
+  display: flex;
+  margin: auto;
+  max-width: 600px;
+  justify-content: space-between;
+}
+.container .footer ul li {
+  list-style: none;
+}
+.container .footer ul li a {
+  text-decoration: none;
+  text-align: center;
+  font-family: font2;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #7e7e7e;
+}
+.container .footer ul li a:hover {
+  color: #000;
+}/*# sourceMappingURL=style.css.map */
